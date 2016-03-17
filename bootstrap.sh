@@ -20,6 +20,9 @@ tar -xf ImageMagick.tar.gz && mv ImageMagick-* ImageMagick && cd ImageMagick && 
 ldconfig /usr/local/lib && rm -rf /opt/ImageMagick*
 cd /opt
 
+# Install Ghostscript
+apt-get install ghostscript
+
 # install nvm
 export NVM_DIR=/opt/nvm
 mkdir -p $NVM_DIR
