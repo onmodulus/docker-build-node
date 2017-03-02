@@ -11,6 +11,9 @@ export TMP_DIR=/tmp
 # install expect
 apt-get install -y expect
 
+# Install Ghostscript
+apt-get install ghostscript
+
 # install nvm
 export NVM_DIR=/opt/nvm
 mkdir -p $NVM_DIR
